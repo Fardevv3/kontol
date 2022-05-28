@@ -10,7 +10,7 @@ module.exports = {
             if (args.length < 1) return m.reply(`*Fitur mencari lagu full tag metadata, sangat disarankan unutk memasukkan judul lagu yang tepat*\n${prefix}${cmd} judul - artis\n\ncontoh : ${prefix}${cmd} samudra janji - bima tarore`)
             m.reply('proses')
             const search = await YT.searchTrack(args.join(' '))
-            let caption = `✅ *Track ditemukan!*\n\n` +
+            let caption = `*Track ditemukan!*\n\n` +
                 `*Source :* ${search[0].isYtMusic ? 'YouTube Music' : 'YouTube'}\n` +
                 `*Title :* ${search[0].title}\n` +
                 `*Artist :* ${search[0].artist}\n` +
