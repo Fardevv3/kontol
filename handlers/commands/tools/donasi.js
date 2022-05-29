@@ -9,13 +9,13 @@ Bot ini membutuhkan server agar bisa on 24 jam dan memproses request kamu dengan
 Total biaya yang diperlukan adalah kurang lebih 150K per bulan :)
 
 *E-Wallet :*
-[ 085236189413 ] - A.N *Muhamad Ristiyanto*
-- DANA | OVO | GOPAY | SHOPEEPAY | LinkAja
+[ 083168004413 ] - 
+- DANA | OVO | GOPAY |
 
 atau juga bisa via QRIS jika akun e-wallet kamu belum upgrade ke premium
 `
         const btn = [
-            { urlButton: { displayText: `😊 Saweria`, url: `https://saweria.co/masgimenz` } },
+            { urlButton: { displayText: ` Pulsa`, url: `6283811034759` } },
             { quickReplyButton: { displayText: `QRIS`, id: `${prefix}qris` } },
         ]
         client.sendMessage(m.chat, { text: caption, footer: `© 2020 - @mg.bot`, templateButtons: btn }, { quoted: m })
