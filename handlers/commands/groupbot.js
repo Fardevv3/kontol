@@ -5,8 +5,8 @@ let cap = `Join Group Bot untuk info ter-update
 • *WhatsApp Group 2* : https://chat.whatsapp.com/DJFe116CDyb26pb2pYDoy2
 `
 const buttonsDefault = [
-    { urlButton: { displayText: `🛎 Telegram Bot`, url: `https://t.me/tikdl_bot` } },
-    { urlButton: { displayText: `💈 Instagram`, url: 'https://www.instagram.com/mg.bot' } },
+    { urlButton: { displayText: ` Telegram Bot`, url: `https://t.me/tikdl_bot` } },
+    { urlButton: { displayText: ` Instagram`, url: 'https://www.instagram.com/mg.bot' } },
 ]
 
 module.exports = {
