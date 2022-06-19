@@ -8,14 +8,15 @@ const more = String.fromCharCode(8206)
 const readMore = more.repeat(4001)
 
 const defaultMenu = {
-    before: `Hi *%pushname* 👋\nYour Device is : *%device* 
+    before: `Hi *%pushname* 🤗\nYour Device is : *%device* 
 *'${package.name}'* ~> coded by ${package.author}
 
 ⌚️ : ${moment().format('HH:mm:ss')}
 📅 : ${pasaran().hijriyah}
 📆 : ${pasaran().jawa}
 
-Bot ini sedang dalam pengembangan harap untuk tidak spam bot
+Bot social media downloader
+kirimkan link yg ingin di download & tunggu bot memproses
 
 *Supported links :*
 %links
@@ -79,9 +80,7 @@ module.exports = {
         ].join('\n')
 
         const buttonsDefault = [
-            { urlButton: { displayText: `Source Code`, url: package.repository.url } },
-            { urlButton: { displayText: `Contacf me`, url: `6283811034750` } },
-            { quickReplyButton: { displayText: `Owner`, id: `${prefix}owner` } },
+            { urlButton: { displayText: `Contact owner`, url: https://wa.me/18312576749 } },
         ]
         client.sendMessage(m.chat, {
             text: _text,
